@@ -1,0 +1,27 @@
+.row-container {
+	padding-top: 15px;
+}
+
+.col-container {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.img-col-container {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.sort-container {
+	padding: 10px 13px;
+}
+
+.sort-label {
+	margin-right: 10px;
+}
+
+.pageLoad-endLabel {
+	width: 100%;
+	text-align: center;
+}

@@ -1,0 +1,45 @@
+.smiley-container {
+	background-color: "#dedede";
+	width: 200px;
+	height: 200px;
+	border: 2px solid #666;
+}
+
+.smiley-facebox {
+	height: 155px;
+	margin: 0 auto;
+	display: table;
+}
+
+.smiley-face {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.smiley-databox {
+	position: absolute;
+	bottom: 0;
+	width: 175px;
+	height: 45px;
+}
+
+.smiley-size {
+	width: 95px;
+	position: relative;
+	left: 0;
+	margin-left: 5px;
+}
+
+.smiley-price {
+	width: 95px;
+	position: absolute;
+	right: -16px;
+	color: red;
+	text-align: right;
+}
+
+.smiley-date {
+	position: relative;
+	left: 0;
+	margin-left: 5px;
+}
