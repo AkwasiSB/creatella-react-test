@@ -25,11 +25,6 @@ Features
 - Ads should be randomly selected, but a user must never see the same ad twice in a row.
 
 
-Installation
-
-`$ npm i && cd client && npm i && cd..`
-
-
 Products API
 ----
 
@@ -38,12 +33,36 @@ Products API
 - To paginate results use the `_page` parameter, eg: `/api/products?_page=10&_limit=15` (returns 15 results starting from the 10th page).
 - To sort results use the `_sort` parameter, eg: `/api/products?_sort=price`. Valid sort values are `price`, `size` and `id`.
 
+
+Installing Dependencies
+----
+### Unix/Mac
+
+`$ npm i && cd client && npm i && cd..`
+
+### Windows
+
+`$ npm i`
+
+`$ cd client`
+
+`$ npm i`
+
+`$ cd ..`
+
+
 FAQ
 ----
 
 ### How do I start the app?
 
-Start with `npm start`. The server will look for any files you add to the `public/` directory.
+Start with `npm start`. This will start both server and the client for development.
+
+### How do I build the app for production?
+
+Start with `npm run build`. This will build the client for deployment to any server.
+
+Then run `npm run server`. To have a view of the built client go to **http://localhost:3001** in your browser and that's it.
 
 ### What libraries/frameworks, packages, tools can I use?
 
