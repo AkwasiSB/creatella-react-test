@@ -25,7 +25,7 @@ Features
 - Ads should be randomly selected, but a user must never see the same ad twice in a row.
 
 
-### Installation
+Installation
 
 `$ npm i && cd client && npm i && cd..`
 
